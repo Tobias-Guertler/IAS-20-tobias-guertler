@@ -1,0 +1,11 @@
+foldable_circuit_code:
+The code used for the foldable circuit with the LED and the Serial monitor as a visualiser. The buildt-in LED is turned on once the anolog signal surpasses a certain threshold, and visualises the closing of the circuit further. I decided on using analog input and this threshold of 450 because digital input did not work as reliable in registering whether or not the circuit is closed. We use the Serial monitor to check the current reaching the pin.
+
+foldable_circuit_criteria:
+A description of the criteria used to evaluate the circuits
+
+foldable_circuit_layouts:
+In all these schematics we would like the blue strip to connect to the black strip after folding the circuit by grabbing the top and folding towards the user, so that the crease would be in a right angle to the red lines. The red lines next to each schematic shows where folding would create a contact. If the circuit is folded so that the resulting horizintal crease would pass through the red line, the two strips would connect. 
+
+foldable_circuit_setup:
+An image of a possible setup for the sensor, used in combination with the foldable_circuit_code. The black cable is connected to pin 2, and will be used as input to register the flowing current.The black cable is also connected to the right strip of copper, the one labeled GND/Pin 2. The red cable is connected to ground via a resistor, and should at all times be connected to the black cable, to ensure that a low current will be registered when the circuit is not closed (due to my personal lack of a breadboard, I had to hold/tape the ends of the cables together, but a breadboard would work better to connect them). The white cable is connected to the 5V output, as well as the left strip of copper tape, labeled 5V. Once the circuit is closed by folding roughly along the red line, we can register a higher flow of current at Pin 2.
