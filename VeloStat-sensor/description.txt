@@ -1,1 +1,9 @@
-This sesnor is planned to be implemented next week, and thus there is no material here yet
+files ending on code: the code used to run the circuit, includes serial monitor
+
+files ending in full: overview of the full arduino circuit
+
+files ending in side: a side few of the accordion-like VeloStat Setup used, note the placement of the cables
+
+files starting in first: the circuit used to check which design works best, only the final design is featured. Mostly used to determine which state (pressed not pressed) yields which values
+
+files starting in final: the circuit of the final prototype, includes a piezo-buzzer for visualisation
